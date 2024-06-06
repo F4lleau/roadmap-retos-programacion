@@ -132,6 +132,14 @@ if __name__ == "__main__":
     estructuras_control()
     numeros_especiales()
 
+    
+"""
+Esta es una construcción común en los programas Python para asegurar que cierto código solo se ejecute cuando el script se ejecuta directamente, y no cuando se importa como un módulo en otro script.
+if __name__ == "__main__": verifica si el archivo de script se está ejecutando directamente.
+imprimir_numeros_especiales() llama a la función definida anteriormente para que se ejecute su código.
+"""
+
+
 """
 La f antes de las comillas en Python se utiliza para definir un f-string (formatted string literal), que es una manera conveniente y eficiente de incluir expresiones dentro de una cadena de texto. Las expresiones incluidas dentro de llaves {} se evalúan en tiempo de ejecución y se insertan en la cadena en esas posiciones.
 
